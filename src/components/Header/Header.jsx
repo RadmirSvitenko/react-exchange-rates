@@ -13,7 +13,9 @@ const Header = (props) => {
   return (
     <AppBar>
       <Toolbar sx={{ justifyContent: "space-between" }}>
-        <Typography variant="h2">ADA RATES</Typography>
+        <Typography fontFamily={"Oswald"} letterSpacing={2} variant="h3">
+          ADA RATES
+        </Typography>
         <TextField
           margin="dense"
           label="Основная валюта"

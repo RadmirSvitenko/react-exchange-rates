@@ -74,7 +74,7 @@ const Calculate = () => {
                   {isLoading ? (
                     <CircularProgress size={20} />
                   ) : (
-                    <Money sx={{ visibility: "hidden" }} />
+                    <Money sx={{ visibility: "static" }} />
                   )}
                 </InputAdornment>
               ),

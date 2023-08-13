@@ -33,7 +33,13 @@ const ExchangesList = (props) => {
       {Object.entries(currencies).map(([key, value]) => (
         <ListItem key={key}>
           <ListItemIcon>{getIconByCurrency(key)}</ListItemIcon>
-          <ListItemText primary={value.toFixed(2)} secondary={key} />
+          <ListItemText
+            sx={{
+              fontFamily: "Oswald",
+            }}
+            primary={value.toFixed(2)}
+            secondary={key}
+          />
         </ListItem>
       ))}
     </List>
