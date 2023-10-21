@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/react-exchange-rates/static/js/main.22ae7b9a.js",
+    "static/js/787.e3c7d5de.chunk.js": "/react-exchange-rates/static/js/787.e3c7d5de.chunk.js",
+    "index.html": "/react-exchange-rates/index.html",
+    "main.22ae7b9a.js.map": "/react-exchange-rates/static/js/main.22ae7b9a.js.map",
+    "787.e3c7d5de.chunk.js.map": "/react-exchange-rates/static/js/787.e3c7d5de.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.22ae7b9a.js"
+  ]
+}
